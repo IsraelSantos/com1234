@@ -8,5 +8,9 @@ public class parser {
 	public parser(scanner sc){
 		
 	}
+	
+	public Symbol parse(){
+		return new Symbol(0, "");
+	}
 
 }
